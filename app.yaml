@@ -1,0 +1,6 @@
+runtime: python39  # Specifies the runtime environment
+
+handlers:
+  - url: /
+    static_files: loginpage.html
+    upload: loginpage.html
